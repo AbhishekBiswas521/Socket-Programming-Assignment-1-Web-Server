@@ -2,7 +2,7 @@
 from socket import *
 serverPort=80
 serverSocket = socket(AF_INET, SOCK_STREAM)
-#Prepare a sever socket
+#Prepare a server socket
 #Fill in start
 serverSocket.bind(('',serverPort))
 serverSocket.listen(1)
